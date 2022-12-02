@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "eslint": "^8.28.0",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}
