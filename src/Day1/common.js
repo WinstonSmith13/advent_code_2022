@@ -17,7 +17,7 @@ function splitStr(str, separator) {
 // Initialize string
 const fileContent = await fs.readFile('puzzle_file', 'utf8');
   
-var separator = '\n\n';
+var separator = PACKAGE;
   
 // Function call
 splitStr(fileContent, separator);
