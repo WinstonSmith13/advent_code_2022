@@ -45,9 +45,10 @@ findLargest3();
 
 function findLargest3() {
     elves.sort((a, b) => a < b ? 1 : a > b ? -1 : 0);
+    
     console.log(elves + "/******/" + elves[0] + "/" + elves[1] + "/" + elves[2]);
     console.log(elves.slice(0, 3));
-    
+
     const totalTop3 = elves[0] + elves[1] + elves[2];
     console.log(totalTop3);
 }
