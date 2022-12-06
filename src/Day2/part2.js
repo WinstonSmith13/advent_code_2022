@@ -75,7 +75,7 @@ var scoreRound = 0
 
 gameScript.forEach((round) => {
 
-    const shape = round.split(' ');
+    const shape = round.split(SHAPES);
 
     if (shape[0] === 'A' && shape[1] === 'X') {
         scoreRound += 0;
